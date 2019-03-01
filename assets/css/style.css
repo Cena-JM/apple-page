@@ -48,7 +48,43 @@ table {
 }
 
 
-/*custome styles*/
+/*custom styles*/
+.container{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.nav-bar{
+	position: absolute;
+	top: 20px;
+	left: 0;
+    right: 0;
+    margin: 0 auto;
+	height: 35px;
+	width: 70%;
+	z-index: 1;
+}
+
+li.nav-item{
+	display: inline-block;
+}
+
 .hero{
-	background: url(../images/hero.jpg);
+	background: url(../images/hero.jpg) no-repeat 0 0;
+	background-size: cover;
+	height: 80vh;
+	text-align: center;
+
+}
+
+.hero-text{
+	position: absolute;
+	top: 300px;
+	left: 25%;
+}
+
+.promo-img{
+	width: 24.76%;
 }
