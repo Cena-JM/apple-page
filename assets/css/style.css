@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+li{
+	display: inline-block;
+}
 
 /*custom styles*/
 .container{
@@ -67,12 +70,8 @@ table {
 	z-index: 1;
 }
 
-li.nav-item{
-	display: inline-block;
-}
-
 .hero{
-	background: url(../images/hero.jpg) no-repeat 0 0;
+	background: url(../images/hero.jpg) no-repeat 0 100%;
 	background-size: cover;
 	height: 80vh;
 	text-align: center;
@@ -87,4 +86,45 @@ li.nav-item{
 
 .promo-img{
 	width: 24.76%;
+}
+
+.footer-wrapper {
+	width: 980px;
+	margin: 0 auto;
+	font: 10px/15px Arial, Helvetica, sans-serif;
+	color: rgb(140, 140, 140);
+}
+.footer-nav {
+	float: right;
+}
+.footer-left {
+	width: 430px;
+	float: left;
+}
+.footer-top {
+	margin: 25px 0 0 0;
+}
+.link {
+	color: #08c;
+	text-decoration: none
+}
+.link:hover {
+	text-decoration: underline;
+}
+.line {
+	padding: 0 6px;
+	border-right: 1px solid rgb(140,140,140);
+}
+.clear{
+	clear: left;
+	display: inline-block;
+	margin: 10px 0 25px 0;
+}
+.copyright {
+	width: 215px;
+	float: left;
+}
+.piped {
+	width: 150px;
+	float: left;
 }
