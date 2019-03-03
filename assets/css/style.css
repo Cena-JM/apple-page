@@ -48,6 +48,10 @@ table {
 }
 
 /*custom styles*/
+.flex-display{
+	display: flex;
+}
+
 body{
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -64,14 +68,11 @@ header{
 	top: 20px;
 	left: 0;
 	right: 0;
-	display: flex;
 	justify-content: center;
 }
 
 .nav-bar{
-	display: flex;
 	margin: 0 auto;
-	flex-direction: row;
 	align-items: center;
 	height: 35px;
 	width: 950px;
@@ -82,7 +83,6 @@ header{
 }
 
 .nav-item{
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -144,7 +144,7 @@ input[name = "search"]{
 }
 
 .promo-img{
-	width: 24.76%;
+	width: 100%;
 }
 
 .footer-wrapper {
