@@ -90,6 +90,7 @@ header{
 	background: linear-gradient(rgb(140,140,140), rgb(110,110,110) 50%, rgb(90,90,90) 51%, rgb(130,130,130));
 	width: 106px;
 	font-size: 15px;
+	text-shadow: 0 -1px black;
 	height: inherit;
 	box-sizing: border-box;
     padding: 8px;
