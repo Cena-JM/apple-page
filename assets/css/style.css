@@ -24,6 +24,10 @@ h2{
 
 body{
 	font-family: Arial, Helvetica, sans-serif;
+	max-width: 1366px;
+	min-height: 830px;
+    max-height: 1472px;
+	margin: 0 auto;
 }
 
 
@@ -112,7 +116,7 @@ input[name = "search"]{
 	background-size: cover;
 	display: table-cell;
 	width: 100vw;
-	height: 550px;
+	height: 80vh;
 	vertical-align: middle;
 
 }
